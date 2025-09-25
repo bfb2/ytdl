@@ -1,0 +1,88 @@
+.yt-download-btn {
+  background: #d3d3d32b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.yt-download-btn:hover {
+  background: #9c9c9c2b;
+}
+.yt-download-btn:disabled{
+    background: lightgray;
+    cursor:wait;
+}
+
+.yt-download-options{
+  width: 250px;
+  position: absolute;
+  z-index: 99999;
+  font-size: 16px;
+  color: white;
+  background: #212121;
+  border-radius: 10px;
+  padding: 20px;
+  justify-self: anchor-center;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.form-btns{
+  border-radius: 18px;
+  font-size: 16px;
+  cursor:pointer;
+  border: none;
+  padding: 0 16px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.cancel-btn{
+  
+  color: #3ea6ff;
+  background: transparent;
+  width: 95px;
+  
+}
+.cancel-btn:hover{
+    background: #263850;
+}
+
+.submit-btn{
+  color: #0f0f0f;
+  background: #3ea6ff;
+  width: 95px;
+}
+.submit-btn:hover{
+  background: #65b8ff;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.form-btn-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-input[type='radio']{
+  accent-color: #3ea6ff;
+  width: 20px;
+  height: 20px;
+  cursor:pointer
+}
+
+.form-input-container{
+  display: flex;
+  align-items: center;
+
+}
+
+.form-input-container > label{
+  margin-right: 10px;
+}
