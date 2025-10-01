@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Adds a download button to YouTube videos and playlists.",
   "permissions": ["scripting", "activeTab", "storage", "downloads","storage"],
-  "host_permissions":["https://yt-downloader-backend-p1up.onrender.com/*"],
+  "host_permissions":["http://127.0.0.1:8000/*"],
   "background": {
     "service_worker": "background.js"
   },
